@@ -20,7 +20,6 @@ public class Variavel {
         System.out.println(numeroGrande);
 
         // 3 - Comentários
-
         /*
         Teste 1
         Teste 2
@@ -28,7 +27,6 @@ public class Variavel {
          */
 
          // 4 - Strings
-
          String firstName = "Maria Antonya";
          String lastName = "Fernandes da Silva";
 
@@ -40,7 +38,6 @@ public class Variavel {
          System.out.println(fullName);
 
          // 5 - Char
-
          char letra = 'M';
 
          System.out.println(letra);
@@ -48,5 +45,12 @@ public class Variavel {
          char simbolo = '%';
 
          System.out.println(simbolo);
+
+         // 6 - Int 
+         int n = 42;
+
+         System.out.println(n);
+         System.out.println(n + 5);
+         System.out.println(n * 15);
     }
 }
