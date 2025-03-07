@@ -70,6 +70,13 @@ public class Variavel {
          System.out.println(preco + 54);
          System.out.println(preco / 5);
 
+         // 9 - OP.  aritmeticos p1
+         int soma = 10 + 5;
+
+         System.out.println(soma);
+         System.out.println(soma / 2.0);
+         System.out.println(soma % 2); // % resto
+
          
     }
 }
