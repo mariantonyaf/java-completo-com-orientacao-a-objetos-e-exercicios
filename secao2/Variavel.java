@@ -52,5 +52,14 @@ public class Variavel {
          System.out.println(n);
          System.out.println(n + 5);
          System.out.println(n * 15);
+
+         // 7 - Long
+         long populacaoMundial = 7800000000000L;
+
+         System.out.println(populacaoMundial);
+
+         long grandeNumero = 1_000_000L;
+
+         System.out.println(grandeNumero + 100);
     }
 }
