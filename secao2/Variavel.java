@@ -33,5 +33,10 @@ public class Variavel {
          String lastName = "Fernandes da Silva";
 
          System.out.println(firstName + " " + lastName);
+         System.out.println("O nome dela é: " + firstName + " " + lastName);
+
+         String fullName = firstName + " " + lastName;
+
+         System.out.println(fullName);
     }
 }
