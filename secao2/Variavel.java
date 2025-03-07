@@ -16,6 +16,7 @@ public class Variavel {
         System.out.println(testando);
 
         long numeroGrande = 9999999999999999L;
-        
+
+        System.out.println(numeroGrande);
     }
 }
