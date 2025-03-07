@@ -5,6 +5,8 @@ public class Variavel {
         // 1 - O que são variáveis?
         // tipo -> nome -> atribuir um valor;
         String nome = "Maria Antonya";
+
+        // nome => "Maria Antonya"
         System.out.println(nome);
     }
 }
