@@ -8,5 +8,14 @@ public class Variavel {
 
         // nome => "Maria Antonya"
         System.out.println(nome);
+
+        // 2 - Atribuição de variável com outra.
+        String teste = "Teste";
+        String testando = teste;
+
+        System.out.println(testando);
+
+        long numeroGrande = 9999999999999999L;
+        
     }
 }
