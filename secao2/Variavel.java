@@ -38,5 +38,15 @@ public class Variavel {
          String fullName = firstName + " " + lastName;
 
          System.out.println(fullName);
+
+         // 5 - Char
+
+         char letra = 'M';
+
+         System.out.println(letra);
+
+         char simbolo = '%';
+
+         System.out.println(simbolo);
     }
 }
