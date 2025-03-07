@@ -77,6 +77,29 @@ public class Variavel {
          System.out.println(soma / 2.0);
          System.out.println(soma % 2); // % resto
 
-         
+         // 10 - OP.  aritmeticos p2
+        int x = 5;
+        x++;
+
+        // Loops -> for, while
+
+        System.out.println("X: " + x);
+
+        int y = 5;
+        y--;
+
+        System.out.println("Y: " + y);
+
+        int a = 10;
+        a += 5;
+
+        System.out.println("A: " + a);
+
+        int b = 10;
+        b -= 5;
+
+        System.out.println("B: " + b);
+
+        
     }
 }
