@@ -20,10 +20,18 @@ public class Variavel {
         System.out.println(numeroGrande);
 
         // 3 - Comentários
+
         /*
         Teste 1
         Teste 2
         Teste 3
          */
+
+         // 4 - Strings
+
+         String firstName = "Maria Antonya";
+         String lastName = "Fernandes da Silva";
+
+         System.out.println(firstName + " " + lastName);
     }
 }
