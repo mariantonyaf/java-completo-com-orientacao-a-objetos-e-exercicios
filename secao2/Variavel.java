@@ -61,5 +61,15 @@ public class Variavel {
          long grandeNumero = 1_000_000L;
 
          System.out.println(grandeNumero + 100);
+
+         // 8 - Double
+         double preco = 19.99;
+
+         System.out.println(preco);
+         System.out.println(preco + 65.87);
+         System.out.println(preco + 54);
+         System.out.println(preco / 5);
+
+         
     }
 }
