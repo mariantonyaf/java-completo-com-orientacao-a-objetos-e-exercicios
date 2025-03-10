@@ -25,6 +25,17 @@ public class TesteScanner {
 
         System.out.println("Sua idade é: " + idade + '.');
 
+        // 3 - Problema do nextLine
+        System.out.println("\n\nDigite um número: ");
+        int x = scanner.nextInt();
+        
+        scanner.nextLine();
+
+        System.out.println("Digite um texto: ");
+        String txt = scanner.nextLine();
+
+        System.out.println("Os dados são, x = " + x + " e txt = " + txt);
+
         // Fechamento do scanner, para evitar memory leak
         scanner.close();
     }
