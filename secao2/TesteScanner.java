@@ -24,5 +24,7 @@ public class TesteScanner {
         int idade = scanner.nextInt();
 
         System.out.println("Sua idade é: " + idade + '.');
+
+        scanner.close();
     }
 }
