@@ -100,6 +100,28 @@ public class Variavel {
 
         System.out.println("B: " + b);
 
+        // 11 - Type casting
+
+        // implicito (widening)
+        int numero2 = 42;
+        long numeroLong = numero2;
+        double numeroDouble = numero2;
+
+        System.out.println("Número de int para long: " + numeroLong);
+        System.out.println("Número de int para double: " + numeroDouble);
+
+        // explicito (narrowing)
+        double valorDouble = 9.78;
+        int valorInt = (int) valorDouble;
+
+        System.out.println("Número de double para int: " + valorInt);
+
+        // casting de char para int
+        char letra2 = 'A';
+        int codigoAscii = (int) letra2;
+
+        System.out.println("Letra para int: " + codigoAscii);
+
         
     }
 }
