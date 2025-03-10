@@ -22,5 +22,7 @@ public class Tabuada {
         System.out.println(num + " X 8 = " + (num * 8));
         System.out.println(num + " X 9 = " + (num * 9));
         System.out.println(num + " X 10 = " + (num * 10) + "\n");
+
+        scanner.close();
     }
 }
