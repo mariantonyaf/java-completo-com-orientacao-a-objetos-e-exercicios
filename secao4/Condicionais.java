@@ -23,5 +23,17 @@ public class Condicionais {
 
         System.out.println(x < 10);
         System.out.println(x <= 10);
+
+        // 3 - Camparação de Strings
+        String str1 = "Java";
+        String str2 = new String("Java");
+        String str3 = "JAVA";
+
+        System.out.println(str1);
+        System.out.println(str2);
+
+        System.out.println(str1.equals(str2));
+        System.out.println(str1.equals(str3));
+        System.out.println(str1.equalsIgnoreCase(str3));
     }
 }
