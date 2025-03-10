@@ -31,8 +31,8 @@ public class TesteScanner {
 
         /* 
         Quando o usuario entrar primeiro com números e depois com
-        texto, tem que colocar um nextLine dps de pegar as informações
-        do nextInt. 
+        texto, tem que colocar um nextLine vazio dps de pegar as 
+        informações do nextInt. 
         */
         scanner.nextLine();
 
