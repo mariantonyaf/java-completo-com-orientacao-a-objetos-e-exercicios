@@ -18,5 +18,10 @@ public class TesteScanner {
 
         // Exibe o valor
         System.out.println("Olá, " + nome + "!");
+
+        System.out.println("\nAgora, digite sua idade: ");
+        int idade = scanner.nextInt();
+
+        System.out.println("Sua idade é: " + idade + '.');
     }
 }
