@@ -25,6 +25,7 @@ public class TesteScanner {
 
         System.out.println("Sua idade é: " + idade + '.');
 
+        // Fechamento do scanner, para evitar memory leak
         scanner.close();
     }
 }
