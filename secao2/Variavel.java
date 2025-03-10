@@ -121,5 +121,17 @@ public class Variavel {
         int codigoAscii = (int) letra2;
 
         System.out.println("Letra para int: " + codigoAscii);
+
+        // 12 - Constantes
+        final int DIAS_DA_SEMANA = 7;
+
+        System.out.println("Dias da semana: " + DIAS_DA_SEMANA);
+
+        // 13 - Inferência de Tipo com var em Java
+        var teste2 = "teste";
+        var doubleTeste = 2.0;
+
+        System.out.println(teste2);
+        System.out.println(doubleTeste);
     }
 }
