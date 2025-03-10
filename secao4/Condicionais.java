@@ -67,9 +67,11 @@ public class Condicionais {
         }
 
         // 6 - Estruturas de condição (else if)
-        double nota = 8.5;
+        double nota = 10;
 
-        if (nota >= 9) {
+        if (nota == 10) {
+            System.out.println("Você tirou a nota máxima. PARABÉNS!");
+        } else if (nota >= 9) {
             System.out.println("Nota muito boa!");
         } else if (nota >= 7) {
             System.out.println("Acima da média.");
