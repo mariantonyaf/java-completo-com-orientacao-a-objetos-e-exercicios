@@ -66,8 +66,8 @@ public class Exercicios {
         */
 
         String texto1 = "Olá, Mundo!";
-        String texto2 = " Bem vindo ao Java!";
+        String texto2 = texto1 + " Bem vindo ao Java!";
 
-        System.out.println("5) resultado: " + texto1 + texto2);
+        System.out.println("5) resultado: " + texto2);
     }
 }
