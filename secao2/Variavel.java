@@ -121,7 +121,5 @@ public class Variavel {
         int codigoAscii = (int) letra2;
 
         System.out.println("Letra para int: " + codigoAscii);
-
-        
     }
 }
