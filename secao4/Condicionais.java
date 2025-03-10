@@ -14,7 +14,14 @@ public class Condicionais {
 
         System.out.println(x == 10);
         System.out.println(x == 9);
-        System.out.println(x != 9);
+
+        System.out.println(x != 5);
         System.out.println(x != 10);
+
+        System.out.println(x > 10);
+        System.out.println(x >= 10);
+
+        System.out.println(x < 10);
+        System.out.println(x <= 10);
     }
 }
