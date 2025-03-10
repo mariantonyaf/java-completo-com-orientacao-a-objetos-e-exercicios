@@ -28,7 +28,12 @@ public class TesteScanner {
         // 3 - Problema do nextLine
         System.out.println("\n\nDigite um número: ");
         int x = scanner.nextInt();
-        
+
+        /* 
+        Quando o usuario entrar primeiro com números e depois com
+        texto, tem que colocar um nextLine dps de pegar as informações
+        do nextInt. 
+        */
         scanner.nextLine();
 
         System.out.println("Digite um texto: ");
