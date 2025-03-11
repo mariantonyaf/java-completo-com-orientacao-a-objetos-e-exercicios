@@ -25,16 +25,25 @@ public class Exercicios {
             System.out.println("Caro.");
         }
 
-        scanner.close();
+        /*
+        EXERCÍCIO 2:
+        Peça ao usuário para inserir um nome de usuário e uma senha.
+        Verifique se o nome de usuário é "admin" e a senha é "1234".
+        Se ambos forem corretos, exiba "Acesso permitido".
+        Caso contrário, exiba "Acesso negado".
+        */
+        scanner.nextLine();
+
+        System.out.println("\n\nInsira um nome:");
+        String nome = scanner.nextLine();
+
+        System.out.println("\nInsira uma senha:");
+        int senha = scanner.nextInt();
+
+        if (nome.equalsIgnoreCase("admin") && senha == 1234) {
+            System.out.println("\nAcesso permitido!");
+        } else {
+            System.out.println("\nAcesso negado!");
+        }
     }
-
-    /*
-    EXERCÍCIO 2:
-    Peça ao usuário para inserir um nome de usuário e uma senha.
-    Verifique se o nome de usuário é "admin" e a senha é "1234".
-    Se ambos forem corretos, exiba "Acesso permitido".
-    Caso contrário, exiba "Acesso negado".
-    */
-
-    
 }
