@@ -19,7 +19,7 @@ public class Exercicios {
 
         if (preco < 50) {
             System.out.println("Barato.");
-        } else if (preco > 50 && preco < 100) {
+        } else if (preco >= 50 && preco <= 100) {
             System.out.println("Médio.");
         } else {
             System.out.println("Caro.");
@@ -45,5 +45,7 @@ public class Exercicios {
         } else {
             System.out.println("\nAcesso negado!");
         }
+
+        scanner.close();
     }
 }
