@@ -78,7 +78,5 @@ public class OperadoresLogicos {
                 System.out.println("Número não encontrado");
                 break;
         }
-
-        
     }
 }
