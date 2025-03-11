@@ -36,7 +36,7 @@ public class OperadoresLogicos {
         System.out.println(estaChovendo);
         System.out.println(!estaChovendo);
 
-        // 11 - Switch case e break
+        // 11 - Switch case, break e default
         int diaDaSemana = 5;
 
         switch (diaDaSemana) {
@@ -64,5 +64,21 @@ public class OperadoresLogicos {
             default:
                 break;
         }
+
+        int n = 10;
+
+        switch (n) {
+            case 1:
+                System.out.println("É 1");
+                break;
+            case 2:
+                System.out.println("É 2");
+                break;
+            default:
+                System.out.println("Número não encontrado");
+                break;
+        }
+
+        
     }
 }
