@@ -40,7 +40,7 @@ public class Exercicios {
         System.out.println("\nInsira uma senha:");
         int senha = scanner.nextInt();
 
-        if (nome.equalsIgnoreCase("admin") && senha == 1234) {
+        if (nome.equals("admin") && senha == 1234) {
             System.out.println("\nAcesso permitido!");
         } else {
             System.out.println("\nAcesso negado!");
