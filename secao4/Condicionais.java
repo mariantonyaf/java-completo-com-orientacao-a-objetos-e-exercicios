@@ -78,8 +78,5 @@ public class Condicionais {
         } else {
             System.out.println("Abaixo da média.");
         }
-
-        // 7 - Operadores lógicos (&&)
-        
     }
 }
