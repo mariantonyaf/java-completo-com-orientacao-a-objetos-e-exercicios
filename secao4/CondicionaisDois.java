@@ -14,6 +14,17 @@ public class CondicionaisDois {
         FALSE "Não ok" */
 
         // 2 - If e else aninhado
-        
+        int idade = 25;
+        boolean temCarteira = false;
+
+        if (idade >= 18) {
+            if (temCarteira) {
+                System.out.println("Pode dirigir!");
+            } else {
+                System.out.println("Precisa ter a habilitação para dirigir!");
+            }
+        } else {
+            System.out.println("Você não pode dirigir ainda!");
+        }
     }
 }
