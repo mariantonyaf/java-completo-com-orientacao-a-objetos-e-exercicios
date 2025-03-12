@@ -76,25 +76,44 @@ public class Exercicios {
         Exiba uma mensagem correspondente.
         */
 
-        System.out.println("Insira um número de 1 a 7:");
-        int n = scanner.nextInt();
+        // System.out.println("Insira um número de 1 a 7:");
+        // int n = scanner.nextInt();
 
-        switch (n) {
-            case 1:
-            case 7:
-                System.out.println("Final de semana");
-                break;
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-                System.out.println("Dia de semana");
-                break;
-            default:
-                System.out.println("Número inválido!");
-                break;
-        }
+        // switch (n) {
+        //     case 1:
+        //     case 7:
+        //         System.out.println("Final de semana");
+        //         break;
+        //     case 2:
+        //     case 3:
+        //     case 4:
+        //     case 5:
+        //     case 6:
+        //         System.out.println("Dia de semana");
+        //         break;
+        //     default:
+        //         System.out.println("Número inválido!");
+        //         break;
+        // }
+
+        /*
+        EXERCÍCIO 5:
+        Peça ao usuário para inserir um número.
+        Verifique se o número está no intervalo de 10 a 20, inclusive.
+        Se estiver, exiba "Dentro do intervalo". Caso contrário, exiba
+        "Fora do intervalo".
+        */
+
+        
+
+        /*
+        EXERCÍCIO 6:
+        Peça ao usuário para inserir uma letra.
+        Verifique se a letra é uma vogal (a, e, i, o, u) ou uma
+        consoante.
+        Exiba "Vogal" ou "Consoante" de acordo com a entrada.
+        Considere tanto letras maiúsculas quanto minúsculas.
+        */
 
         scanner.close();
     }
