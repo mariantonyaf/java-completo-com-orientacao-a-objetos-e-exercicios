@@ -12,5 +12,8 @@ public class CondicionaisDois {
 
         /* CONDIÇÃO X > 5 ? EXPRESSÃO SE É TRUE "Ok" : EXPRESSÃO SE É
         FALSE "Não ok" */
+
+        // 2 - If e else aninhado
+        
     }
 }
