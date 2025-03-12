@@ -25,6 +25,8 @@ public class Calculadora {
 
         double imc = peso / (altura * altura);
 
+        System.out.println("IMC: " + imc);
+
         if (imc < 18.5) {
             System.out.println("Abaixo do peso.");
         } else if (imc >= 18.5 && imc <= 24.9) {
