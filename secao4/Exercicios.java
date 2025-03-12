@@ -53,18 +53,18 @@ public class Exercicios {
         Use uma String para armazenar o resultado e exibi-la.
         */
 
-        System.out.println("Insira um número:");
-        int num = scanner.nextInt();
+        // System.out.println("Insira um número:");
+        // int num = scanner.nextInt();
 
-        String resultado;
+        // String resultado;
 
-        if (num % 2 == 0) {
-            resultado = "Par";
-        } else {
-            resultado = "Ímpar";
-        }
+        // if (num % 2 == 0) {
+        //     resultado = "Par";
+        // } else {
+        //     resultado = "Ímpar";
+        // }
 
-        System.out.println(resultado);
+        // System.out.println(resultado);
 
         /*
         EXERCÍCIO 4:
@@ -81,29 +81,18 @@ public class Exercicios {
 
         switch (n) {
             case 1:
-                System.out.println("Domingo");
+            case 7:
+                System.out.println("Final de semana");
                 break;
             case 2:
-                System.out.println("Segunda-feira");
-                break;
             case 3:
-                System.out.println("Terça-feira");
-                break;
             case 4:
-                System.out.println("Quarta-feira");
-                break;
             case 5:
-                System.out.println("Quinta-feira");
-                break;
             case 6:
-                System.out.println("Sexta-feira");
+                System.out.println("Dia de semana");
                 break;
-            case 7:
-                System.out.println("Sábado");
-                break;
-        
             default:
-                System.out.println("Número de 1 a 7!");
+                System.out.println("Número inválido!");
                 break;
         }
 
