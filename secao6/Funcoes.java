@@ -19,6 +19,17 @@ public class Funcoes {
         System.out.println("Dobro: " + numeroDobrado);
 
         System.out.println(dobrar(54));
+
+        // 4 - Retorno em variável
+        String r1 = verificarPar(numero);
+        String r2 = verificarPar(3);
+
+        System.out.println(r1);
+        System.out.println(r2);
+
+        int x = dobrar(soma2(2, 4));
+
+        System.out.println("O dobro da soma é: " + x);
     }
 
     /* NIVEL DE ACESSO, STATIC => não preciso instanciar classe para 
@@ -39,5 +50,17 @@ public class Funcoes {
 
     public static int dobrar (int n) {
         return n * 2;
+    }
+
+    public static String verificarPar (int n) {
+        if (n % 2 == 0) {
+            return "O número " + n + " é par!";
+        } else {
+            return "O número " + n + " é ímpar!";
+        }
+    }
+
+    public static int soma2 (int a, int b) {
+        return a + b;
     }
 }
