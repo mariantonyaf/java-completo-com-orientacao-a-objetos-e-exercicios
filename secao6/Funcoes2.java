@@ -4,12 +4,12 @@ public class Funcoes2 {
     public static void main(String[] args) {
         // 5 - Funções com condicionais
         String r1 = verificarAcesso(22, true, true);
-
         System.out.println(r1);
 
         // 6 - Funções com Switch
-        String diaSemana = obterDiaDaSemana(4);
+        System.out.println(obterDiaDaSemana(10));
 
+        String diaSemana = obterDiaDaSemana(4);
         System.out.println(diaSemana);
     }
 
