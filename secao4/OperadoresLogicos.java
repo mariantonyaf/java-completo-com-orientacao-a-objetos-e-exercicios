@@ -2,7 +2,7 @@ package secao4;
 
 public class OperadoresLogicos {
     public static void main(String[] args) {
-        // 7 - AND
+        // 1 - AND
         int idade = 20;
         boolean temCarteiraMotorista = true;
 
@@ -17,7 +17,7 @@ public class OperadoresLogicos {
             System.out.println("Não deu certo!");
         }
 
-        // 8 - OR
+        // 2 - OR
         boolean estaChovendo = false;
         boolean temGuardaChuva = true;
 
@@ -32,11 +32,11 @@ public class OperadoresLogicos {
             System.out.println("Entrada negada!");
         }
 
-        // 9 - NOT
+        // 3 - NOT
         System.out.println(estaChovendo);
         System.out.println(!estaChovendo);
 
-        // 11 - Switch case, break e default
+        // 4 - Switch case, break e default
         int diaDaSemana = 5;
 
         switch (diaDaSemana) {
