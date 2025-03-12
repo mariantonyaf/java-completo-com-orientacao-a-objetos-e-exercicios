@@ -14,16 +14,16 @@ public class Exercicios {
         Exiba a categoria correspondente.
         */
 
-        System.out.println("Insira o preço do produto:");
-        double preco = scanner.nextDouble();
+        // System.out.println("Insira o preço do produto:");
+        // double preco = scanner.nextDouble();
 
-        if (preco < 50) {
-            System.out.println("Barato.");
-        } else if (preco >= 50 && preco <= 100) {
-            System.out.println("Médio.");
-        } else {
-            System.out.println("Caro.");
-        }
+        // if (preco < 50) {
+        //     System.out.println("Barato.");
+        // } else if (preco >= 50 && preco <= 100) {
+        //     System.out.println("Médio.");
+        // } else {
+        //     System.out.println("Caro.");
+        // }
 
         /*
         EXERCÍCIO 2:
@@ -32,23 +32,80 @@ public class Exercicios {
         Se ambos forem corretos, exiba "Acesso permitido".
         Caso contrário, exiba "Acesso negado".
         */
-        scanner.nextLine();
 
-        System.out.println("\n\nInsira um nome:");
-        String nome = scanner.nextLine();
+        // System.out.println("\n\nInsira um nome:");
+        // String nome = scanner.nextLine();
 
-        System.out.println("\nInsira uma senha:");
-        int senha = scanner.nextInt();
+        // System.out.println("\nInsira uma senha:");
+        // int senha = scanner.nextInt();
 
-        if (nome.equals("admin") && senha == 1234) {
-            System.out.println("\nAcesso permitido!");
-        } else {
-            System.out.println("\nAcesso negado!");
-        }
+        // if (nome.equals("admin") && senha == 1234) {
+        //     System.out.println("\nAcesso permitido!");
+        // } else {
+        //     System.out.println("\nAcesso negado!");
+        // }
 
         /*
-        
+        EXERCÍCIO 3:
+        Peça ao usuário para inserir um número.
+        Veriique se o número é par ou ímpar, e exiba a palavra "Par" ou
+        "Ímpar".
+        Use uma String para armazenar o resultado e exibi-la.
         */
+
+        System.out.println("Insira um número:");
+        int num = scanner.nextInt();
+
+        String resultado;
+
+        if (num % 2 == 0) {
+            resultado = "Par";
+        } else {
+            resultado = "Ímpar";
+        }
+
+        System.out.println(resultado);
+
+        /*
+        EXERCÍCIO 4:
+        Peça ao usuário para inserir um número de 1 a 7,
+        representando os dias da semana (1 para domingo, 2 para segunda,
+        ect).
+        Use switch para verificar se o dia é um dia útil (seg a sexta) ou
+        final de semana (sab e doming).
+        Exiba uma mensagem correspondente.
+        */
+
+        System.out.println("Insira um número de 1 a 7:");
+        int n = scanner.nextInt();
+
+        switch (n) {
+            case 1:
+                System.out.println("Domingo");
+                break;
+            case 2:
+                System.out.println("Segunda-feira");
+                break;
+            case 3:
+                System.out.println("Terça-feira");
+                break;
+            case 4:
+                System.out.println("Quarta-feira");
+                break;
+            case 5:
+                System.out.println("Quinta-feira");
+                break;
+            case 6:
+                System.out.println("Sexta-feira");
+                break;
+            case 7:
+                System.out.println("Sábado");
+                break;
+        
+            default:
+                System.out.println("Número de 1 a 7!");
+                break;
+        }
 
         scanner.close();
     }
