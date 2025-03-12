@@ -104,7 +104,14 @@ public class Exercicios {
         "Fora do intervalo".
         */
 
-        
+        System.out.println("Insira um número:");
+        int n = scanner.nextInt();
+
+        if (n >= 10 && n <= 20) {
+            System.out.println("Dentro do intervalo.");
+        } else {
+            System.out.println("Fora do intervalo.");
+        }
 
         /*
         EXERCÍCIO 6:
@@ -114,6 +121,23 @@ public class Exercicios {
         Exiba "Vogal" ou "Consoante" de acordo com a entrada.
         Considere tanto letras maiúsculas quanto minúsculas.
         */
+
+        System.out.println("Insira uma letra:");
+        String letra = scanner.nextLine();
+
+        if (letra.equalsIgnoreCase("a")) {
+            System.out.println("Vogal");
+        } else if (letra.equalsIgnoreCase("e")) {
+            System.out.println("Vogal");
+        } else if (letra.equalsIgnoreCase("i")) {
+            System.out.println("Vogal");
+        } else if (letra.equalsIgnoreCase("o")) {
+            System.out.println("Vogal");
+        } else if (letra.equalsIgnoreCase("u")) {
+            System.out.println("Vogal");
+        } else {
+            System.out.println("Consoante");
+        }
 
         scanner.close();
     }
