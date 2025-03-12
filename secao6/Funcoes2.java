@@ -11,6 +11,10 @@ public class Funcoes2 {
 
         String diaSemana = obterDiaDaSemana(4);
         System.out.println(diaSemana);
+
+        // 7 - System exit
+        verificarAutenticacao ("admin", "SenhaSegura");
+        System.out.println("Oi");
     }
 
     public static String verificarAcesso (int idade, 
@@ -46,5 +50,14 @@ public class Funcoes2 {
             default:
                 return "Dia inválido";
         }
+    }
+
+    public static void verificarAutenticacao (String usuario, String senha) {
+        if (!usuario.equals("admin") && !senha.equals("SenhaSegura")) {
+            System.out.println("Autentificação falhou!");
+            System.exit(1);
+        }
+            
+        System.out.println("Autentificação bem sucedida!");
     }
 }
