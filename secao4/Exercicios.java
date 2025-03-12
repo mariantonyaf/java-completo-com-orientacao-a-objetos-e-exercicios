@@ -105,9 +105,9 @@ public class Exercicios {
         */
 
         System.out.println("Insira um número:");
-        int n = scanner.nextInt();
+        int nu = scanner.nextInt();
 
-        if (n >= 10 && n <= 20) {
+        if (nu >= 10 && nu <= 20) {
             System.out.println("Dentro do intervalo.");
         } else {
             System.out.println("Fora do intervalo.");
@@ -142,10 +142,10 @@ public class Exercicios {
         // ou
 
         System.out.println("Insira uma letra:");
-        char letra = scanner.next().toLowerCase().charAt(0);
+        char letra2 = scanner.next().toLowerCase().charAt(0);
         // charAt pega apenas o primeiro caractere e ignora o resto.
 
-        switch (letra) {
+        switch (letra2) {
             case 'a':
             case 'e':
             case 'i':
