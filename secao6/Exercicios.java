@@ -49,7 +49,7 @@ public class Exercicios {
         Caso contrário, exiba "Acesso permitido".
         */
 
-        idadePessoa(12);
+        idadePessoa(22);
 
         /*
         EXERCÍCIO 6:
@@ -59,7 +59,7 @@ public class Exercicios {
         identificar o maior valor.
         */
 
-        int[] numeros = {10, 5, 22, 44, 5};
+        int[] numeros = {10, 5, 100, 22, 44, 5};
         System.out.println(encontrarMaior(numeros));
     }
 
