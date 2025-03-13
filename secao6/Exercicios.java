@@ -49,6 +49,8 @@ public class Exercicios {
         Caso contrário, exiba "Acesso permitido".
         */
 
+        idadePessoa(18);
+
         /*
         EXERCÍCIO 6:
         Crie uma função que receba um array de inteiros e retorne
@@ -97,5 +99,14 @@ public class Exercicios {
             default:
                 return "F";
         }
+    }
+
+    public static void idadePessoa (int idade) {
+        if (idade < 18) {
+            System.out.println("Acesso negado!");
+            System.exit(0);
+        }
+            
+        System.out.println("Acesso permitido!");
     }
 }
