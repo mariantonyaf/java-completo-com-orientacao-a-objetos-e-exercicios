@@ -40,6 +40,22 @@ public class Exercicios {
         */
 
         System.out.println(nota(8));
+
+        /*
+        EXERCÍCIO 5:
+        Crie uma função que receba a idade de uma pessoa.
+        Se a idade for menor que 18, use System.exit(0) para encerrar
+        o programa com uma mensagem de "Acesso negado".
+        Caso contrário, exiba "Acesso permitido".
+        */
+
+        /*
+        EXERCÍCIO 6:
+        Crie uma função que receba um array de inteiros e retorne
+        o maior número presente no array.
+        Utilize um loop para percorrer os elementos do array e 
+        identificar o maior valor.
+        */
     }
 
     public static double converter (double c) {
