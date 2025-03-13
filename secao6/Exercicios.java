@@ -39,7 +39,7 @@ public class Exercicios {
         do intervalo válido.
         */
 
-        System.out.println(nota(5.5));
+        System.out.println(nota(8));
     }
 
     public static double converter (double c) {
@@ -62,11 +62,24 @@ public class Exercicios {
         }
     }
 
-    public static String nota (double n) {
-        if (n >= 0 && n <= 100) {
-            return "Tudo certo!";
-        } else {
-            return "Número inválido! Digite um número de 0 a 100.";
+    public static String nota (int n) {
+        if (n < 0 || n > 10) {
+            return "Nota inválida!";
+        }
+
+        switch (n) {
+            case 10:
+            case 9:
+                return "A";
+            case 8:
+                return "B";
+            case 7: 
+                return "C";
+            case 6:
+                return "D";
+        
+            default:
+                return "F";
         }
     }
 }
