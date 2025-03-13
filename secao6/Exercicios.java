@@ -29,10 +29,17 @@ public class Exercicios {
         Use condicionais if-else para determinar a paridade.
         */
 
+        System.out.println(parOuImpar(2));
+
         /*
         EXERCÍCIOS 4:
-        Crie uma função que receba 
+        Crie uma função que receba uma nota de 0 a 100 e retorne uma
+        classificação de letra (A, B, C, D, F) usando switch.
+        Inclua uma verificação para garantir que a nota está dentro
+        do intervalo válido.
         */
+
+        System.out.println(nota(5.5));
     }
 
     public static double converter (double c) {
@@ -44,6 +51,22 @@ public class Exercicios {
             return 1;
         } else {
             return num * fatorial(num - 1);
+        }
+    }
+
+    public static String parOuImpar (int num) {
+        if (num % 2 == 0) {
+            return "Par";
+        } else {
+            return "Ímpar";
+        }
+    }
+
+    public static String nota (double n) {
+        if (n >= 0 && n <= 100) {
+            return "Tudo certo!";
+        } else {
+            return "Número inválido! Digite um número de 0 a 100.";
         }
     }
 }
