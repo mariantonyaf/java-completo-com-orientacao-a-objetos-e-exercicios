@@ -49,7 +49,7 @@ public class Exercicios {
         Caso contrário, exiba "Acesso permitido".
         */
 
-        idadePessoa(18);
+        idadePessoa(12);
 
         /*
         EXERCÍCIO 6:
@@ -58,6 +58,9 @@ public class Exercicios {
         Utilize um loop para percorrer os elementos do array e 
         identificar o maior valor.
         */
+
+        int[] numeros = {10, 5, 22, 44, 5};
+        System.out.println(encontrarMaior(numeros));
     }
 
     public static double converter (double c) {
@@ -108,5 +111,18 @@ public class Exercicios {
         }
             
         System.out.println("Acesso permitido!");
+    }
+
+    public static int encontrarMaior (int[] numeros) {
+        int maior = numeros[0];
+
+        //contador, cond. execução, incremento
+        for (int i = 1; i < numeros.length; i++) {
+            if (numeros[i] > maior) {
+                maior = numeros[i];
+            }
+        }
+
+        return maior;
     }
 }
