@@ -65,6 +65,22 @@ public class Loops {
             System.out.println("Contador: " + x);
         }
 
-        
+        // 6 - Nested loops
+        for (int m = 1; m <= 3; m++) {
+            System.out.println("EXTERNO");
+
+            for (int n = 1; n <= 3; n++) {
+                System.out.println(m + " x " + n + " = " + (m * n));
+            }
+        }
+
+        // Padrão de estrelas
+        for (int o = 1; o <= 20; o++) {
+            for (int p = 1; p <=o; p++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
     }
 }
