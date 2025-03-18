@@ -43,5 +43,28 @@ public class Loops {
             System.out.println("O valor de j é: " + j);
             j--;
         } while (j > 0);
+
+        // 4 - Break em loops
+        for (int x = 0; x <= 10; x++) {
+            System.out.println("O valor de x é: " + x);
+
+            if (x == 5) {
+                System.out.println("Parando o loop...");
+                break;
+            }
+        }
+
+        // 5 - Continue em loops
+        for (int x = 10; x > 0; x--) {
+
+            if (x % 2 == 0) {
+                System.out.println("Par!");
+                continue;
+            }
+
+            System.out.println("Contador: " + x);
+        }
+
+        
     }
 }
