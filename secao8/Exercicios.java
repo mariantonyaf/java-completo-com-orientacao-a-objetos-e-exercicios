@@ -43,7 +43,7 @@ public class Exercicios {
 
         // // Testar se ele é primo mesmo
         // for (int i = 2; i < numPrimo; i++) {
-        //     // Dividir esse cara e não ter resto, ele não é primo
+        //     // Dividir e não ter resto, ele não é primo
         //     // 1 e por ele msm
 
         //     if (numPrimo % i == 0) {
@@ -63,6 +63,8 @@ public class Exercicios {
         Crie um programa que exiba um menu interativo usando do-while,
         parmitindo ao usuário escolher opções até que ele decida sair.
         */
+
+        
 
         /*
         EXERCÍCIO 5:
