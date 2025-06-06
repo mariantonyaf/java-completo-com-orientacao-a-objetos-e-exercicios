@@ -35,7 +35,25 @@ public class CalculadoraSimples {
         int operacao = scanner.nextInt();
 
         // Realizando calculos
+        double resultado = 0;
+
+        switch (operacao) {
+            case 1:
+                resultado = somar(num1, num2)
+                break;
+            case 2:
+                resultado = subtrair(num1, num2)
+                break;
+            case 3:
+                resultado = multiplicar(num1, num2)
+                break;
+            case 4:
+                resultado = dividir(num1, num2)
+                break;
         
+            default:
+                break;
+        }
 
         // Fechando o scanner
         scanner.close();
