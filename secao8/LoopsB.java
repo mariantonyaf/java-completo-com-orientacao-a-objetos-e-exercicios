@@ -20,7 +20,7 @@ public class LoopsB {
         } */
 
 
-        for(int i = 0; i < 3; i++) {
+        /* for(int i = 0; i < 3; i++) {
 
             System.out.println("Externo: " + i);
 
@@ -34,6 +34,14 @@ public class LoopsB {
 
                 System.out.println("i " + i + ", j " + j);
             }
+        } */
+
+        // 9 - Off by one
+
+        // Exectar 5 vezes 
+
+        for(int i = 0; i <= 5; i++) {
+            System.out.println("I: " + i);
         }
     }
 }
