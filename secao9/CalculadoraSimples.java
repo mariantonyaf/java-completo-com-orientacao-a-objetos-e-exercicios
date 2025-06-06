@@ -65,7 +65,7 @@ public class CalculadoraSimples {
         }
 
         // Exibição do resultado
-        System.out.println("Resultado da operação: " + resultado);
+        System.out.println("\nResultado da operação: " + resultado);
 
         // Fechando o scanner
         scanner.close();
