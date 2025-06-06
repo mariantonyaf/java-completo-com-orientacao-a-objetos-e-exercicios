@@ -38,25 +38,25 @@ public class Exercicios {
         loop for para verificar se ele é primo.
         */
 
-        // int numPrimo = 29;
-        // boolean ePrimo = true;
+        /* int numPrimo = 29;
+        boolean ePrimo = true;
 
-        // // Testar se ele é primo mesmo
-        // for (int i = 2; i < numPrimo; i++) {
-        //     // Dividir e não ter resto, ele não é primo
-        //     // 1 e por ele msm
+        // Testar se ele é primo mesmo
+        for (int i = 2; i < numPrimo; i++) {
+           // Dividir e não ter resto, ele não é primo
+            // 1 e por ele msm
 
-        //     if (numPrimo % i == 0) {
-        //         ePrimo = false;
-        //         break;
-        //     }
-        // }
+            if (numPrimo % i == 0) {
+                ePrimo = false;
+                break;
+            }
+        }
 
-        // if (ePrimo) {
-        //     System.out.println("O número " + numPrimo + " é primo!");
-        // } else {
-        //     System.out.println("O número " + numPrimo + " não é primo!");
-        // }
+        if (ePrimo) {
+            System.out.println("O número " + numPrimo + " é primo!");
+        } else {
+            System.out.println("O número " + numPrimo + " não é primo!");
+        } */
 
         /*
         EXERCÍCIO 4:
@@ -64,12 +64,32 @@ public class Exercicios {
         parmitindo ao usuário escolher opções até que ele decida sair.
         */
 
-        
+        /* int opcao;
+
+        do {
+            System.out.println("Exercício 4 - Menu");
+            System.out.println("0) Refrigerante");
+            System.out.println("1) Hamburguer");
+            System.out.println("2) Cachorro quente");
+            System.out.println("3) Sushi");
+            System.out.println("4) Sair");
+
+            opcao = (int)(Math.random() * 5);
+
+            System.out.println("A opção escolhida foi: " + opcao);
+        } while (opcao != 4); */
 
         /*
         EXERCÍCIO 5:
         Desenvolva um programa que calcule o fatorial de um número
         inteiro positivo usando um loop for.
+        */
+
+        
+
+        /*
+        EXERCÍCIO 6:
+        Contagem de dígitos de um número com while.
         */
     }
 }
