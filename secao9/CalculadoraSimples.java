@@ -17,6 +17,7 @@ import java.util.Scanner;
 public class CalculadoraSimples {
     public static void main(String[] args) {
 
+        // Resgatando números
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o primeiro número: ");
@@ -25,6 +26,7 @@ public class CalculadoraSimples {
         System.out.println("\nDigite o segundo número: ");
         double num2 = scanner.nextDouble();
 
+        // Resgatando operação
         System.out.println("\nEscolha a operação:");
         System.out.println("1 - Soma (+)");
         System.out.println("2 - Subtração (-)");
@@ -32,6 +34,10 @@ public class CalculadoraSimples {
         System.out.println("4 - Divisão (/)");
         int operacao = scanner.nextInt();
 
+        // Realizando calculos
+        
+
+        // Fechando o scanner
         scanner.close();
     }
 
