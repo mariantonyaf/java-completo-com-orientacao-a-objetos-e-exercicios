@@ -48,12 +48,24 @@ public class CalculadoraSimples {
                 resultado = multiplicar(num1, num2);
                 break;
             case 4:
-                resultado = dividir(num1, num2);
+                if(num2 != 0) {
+                    resultado = dividir(num1, num2);
+                } else {
+                    System.out.println("Divisão por 0 não permitida!");
+                    scanner.close();
+                    return;
+                }
+
                 break;
         
             default:
-                break;
+                System.out.println("Operação inválida!");
+                scanner.close();
+                return;
         }
+
+        // Exibição do resultado
+        System.out.println("Resultado da operação: " + resultado);
 
         // Fechando o scanner
         scanner.close();
