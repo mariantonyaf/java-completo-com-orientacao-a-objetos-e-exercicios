@@ -85,11 +85,30 @@ public class Exercicios {
         inteiro positivo usando um loop for.
         */
 
-        
+        /* int numFatorial = 4;
+        int fatorial = 1;
+
+        for(int i = 1; i <= numFatorial; i++) {
+            fatorial *= i;
+        } 
+
+        System.out.println("O fatorial de " + numFatorial + " é igual a " + fatorial); */
 
         /*
         EXERCÍCIO 6:
         Contagem de dígitos de um número com while.
         */
+
+        int numeroParaContar = 256487562;
+        int contador = 0;
+
+        while (numeroParaContar != 0) {
+            
+            numeroParaContar = numeroParaContar / 10;
+
+            contador++;
+        }
+
+        System.out.println("Numero de digitos: " + contador);
     }
 }
