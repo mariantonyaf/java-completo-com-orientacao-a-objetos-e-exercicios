@@ -20,5 +20,45 @@ public class Listas {
         frutas[2] = "Mamão";
 
         System.out.println(frutas[0]);
+
+        // 2 - Loops em arrays
+
+        // Somar todos os elementos de um array;
+        // Acessar os elementos e condensar a soma em um var.
+
+        int soma = 0;
+
+        // Length => a qtd de elementos de um array
+
+        for(int i = 0; i < numeros.length; i++) {
+            soma += numeros[i];
+        }
+
+        System.out.println("Soma dos elementos: " + soma);
+
+        // For each
+        // Nomear o item => array
+        // Pessoas => Pessoa
+        // Frutas => Fruta
+
+        for(String fruta : frutas) {
+            System.out.println("Fruta da vez: " + fruta);
+        }
+
+        // Encontrar o maior valor de array
+
+        int[] valores = {10, 25, 8, 22, 1};
+
+        int maiorValor = valores[0];
+
+        int j = 0;
+
+        while(j < valores.length) {
+            if(valores[j] > maiorValor) {
+                maiorValor = valores[j];
+            }
+            j++;
+        }
+        System.out.println("Maior valor: " + maiorValor);
     }
 }
