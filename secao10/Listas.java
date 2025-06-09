@@ -60,5 +60,21 @@ public class Listas {
             j++;
         }
         System.out.println("Maior valor: " + maiorValor);
+
+        // 3 - For each
+
+        for(int numero : numeros) {
+            System.out.println("O número é: " + numero);
+        }
+
+        // Concatenar elementos de um array
+
+        String[] palavras = {"Java", "é", "bom!"};
+
+        String frase = "";
+
+        for(String palavra : palavras) {
+            
+        }
     }
 }
