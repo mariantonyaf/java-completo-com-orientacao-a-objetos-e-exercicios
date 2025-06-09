@@ -117,5 +117,19 @@ public class Listas {
                 System.out.println("Numero maior encontrado: " + nums[i]);
             }
         }
+
+        String[] linguagens = {"Java", "C", "Python", "PHP"};
+
+        String linguagemAlvo = "Python";
+
+        for(String linguagem : linguagens) {
+
+            if(linguagemAlvo == linguagem) {
+                System.out.println("Linguagem encontrada! Parando o loop");
+                break;
+            } else {
+                System.out.println("Linguagem ainda não encontrada!");
+            }
+        }
     }
 }
