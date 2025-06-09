@@ -74,7 +74,22 @@ public class Listas {
         String frase = "";
 
         for(String palavra : palavras) {
-            
+            frase += palavra + " ";
+        }
+        System.out.println(frase);
+    
+        // Verificar se o valor esta presente em array
+
+        char[] letras = {'a', 'e', 'i', 'o', 'u'};
+
+        char letraProcurada = 'i';
+
+        for(char letra : letras) {
+
+            if(letra == letraProcurada) {
+                System.out.println("Encontramos a letra: " + letra); 
+                break;
+            }
         }
     }
 }
