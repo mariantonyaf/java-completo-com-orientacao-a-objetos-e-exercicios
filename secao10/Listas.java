@@ -91,5 +91,31 @@ public class Listas {
                 break;
             }
         }
+
+        // 4 - Loops com if 
+
+        // Filtrar e somar numeros pares
+
+        int somaPares = 0;
+
+        for(int numero : numeros) {
+            if(numero % 2 == 0) {
+                somaPares += numero;
+            }
+        }
+        System.out.println("Soma pares: " + somaPares);
+
+        // Exibir valores maiores que um determinado valor
+
+        int[] nums = {12, 6, 18, 24, 48, 5};
+
+        int limite = 10;
+
+        for(int i = 0; i < nums.length; i++) {
+
+            if(nums[i] > limite) {
+                System.out.println("Numero maior encontrado: " + nums[i]);
+            }
+        }
     }
 }
