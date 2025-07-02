@@ -1,5 +1,7 @@
 package secao10;
 
+import java.util.Arrays;
+
 public class Listas {
     public static void main(String[] args) {
         
@@ -150,5 +152,60 @@ public class Listas {
             }
         }
         System.out.println(frutas[0]);
+
+        // 6 - método toString
+
+        // Classes no Java, que não vão ter metodos utilitários, o Array é uma delas
+
+        String dadosNumericos = Arrays.toString(numeros);
+
+        System.out.println(dadosNumericos);
+        System.out.println(numeros);
+
+        String dadosFrutas = Arrays.toString(frutas);
+
+        System.out.println(dadosFrutas);
+        System.out.println(frutas);
+
+        int[] teste = new int[3];
+
+        System.out.println(Arrays.toString(teste));
+        System.out.println(teste);
+
+        // 7 - adicionando novos itens a arrays
+
+        // ex1: criando um novo array maior e copiando os els.
+
+        int[] novoArray = new int[numeros.length + 1];
+
+        for(int i = 0; i < numeros.length; i++) {
+            novoArray[i] = numeros[i];
+        }
+
+        System.out.println(Arrays.toString(novoArray));
+
+        novoArray[novoArray.length - 1] = 4;
+
+        System.out.println(Arrays.toString(novoArray));
+
+        // ex2: utilizando arraycopy para copiar os els.
+
+        String[] novoFrutas = new String[frutas.length + 1];
+
+        System.arraycopy(frutas, 0, novoFrutas, 0, frutas.length);
+
+        novoFrutas[novoFrutas.length - 1] = "Jaca";
+
+        System.out.println(Arrays.toString(novoFrutas));
+
+        // ex3: usando ArrayList
+
+        java.util.ArrayList<String> listaFrutas = new java.util.ArrayList<>(Arrays.asList("Maçã", "Banana", "Laranja"));
+         
+        System.out.println(listaFrutas);
+
+        listaFrutas.add("Manga");
+
+        System.out.println(listaFrutas);
     }
 }
