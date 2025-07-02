@@ -41,6 +41,7 @@ public class AvancandoArrays {
         // ordenação de linhas, por um valor de coluna
         Arrays.sort(matriz, Comparator.comparingInt(a -> a[1]));
 
+        // imprimir matriz, sem foreach
         System.out.println("Depois: " + Arrays.deepToString(matriz));
     }
 }
