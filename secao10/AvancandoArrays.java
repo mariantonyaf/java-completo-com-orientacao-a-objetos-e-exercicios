@@ -36,15 +36,11 @@ public class AvancandoArrays {
             {2, 3, 1}
         };
 
-        for(int[] linha : matriz) {
-            System.out.println("Antes: " + Arrays.toString(linha));
-        }
+        System.out.println("\nAntes: " + Arrays.deepToString(matriz));
 
         // ordenação de linhas, por um valor de coluna
         Arrays.sort(matriz, Comparator.comparingInt(a -> a[1]));
 
-        for(int[] linha : matriz) {
-            System.out.println("Depois: " + Arrays.toString(linha));
-        }
+        System.out.println("Depois: " + Arrays.deepToString(matriz));
     }
 }
