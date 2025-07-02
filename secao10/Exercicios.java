@@ -1,6 +1,7 @@
 package secao10;
 
 import java.util.Arrays;
+import java.util.ArrayList;
 
 public class Exercicios {
     public static void main(String[] args) {
@@ -84,6 +85,18 @@ public class Exercicios {
         Exiba o array antes e depois da modificação.
         */
 
+        int[] arrayComNegativos = {1, -2, 3, -4, 5, -6};
+        
+        System.out.println("\nEX4 - Antes: " + Arrays.toString(arrayComNegativos));
+
+        for(int i = 0; i < arrayComNegativos.length; i++) {
+            if(arrayComNegativos[i] < 0) {
+                arrayComNegativos[i] = 0;
+            }
+        }
+
+        System.out.println("EX4 - Depois: " + Arrays.toString(arrayComNegativos));
+
         /*
         EXERCÍCIO 5:
         Desenvolva um programa que remova os elementos duplicados de
@@ -91,5 +104,20 @@ public class Exercicios {
         de cada valor.
         Exiba o array original e o array sem duplicatas.
         */
+
+        int[] arrayComDuplicados = {1, 2, 2, 2, 3, 4, 4, 5};
+
+        // array numerico sem qtd de elementos definida
+        ArrayList<Integer> arraySemDuplicados = new ArrayList<>();
+
+        for(int numero : arrayComDuplicados) {
+            if(!arraySemDuplicados.contains(numero)) {
+                arraySemDuplicados.add(numero);
+            }
+        }
+
+        System.out.println("\nEX5 - Original: " + Arrays.toString(arrayComDuplicados));
+        System.out.println("EX5 - Sem Duplicatas: " + arraySemDuplicados);
+
     }
 }
