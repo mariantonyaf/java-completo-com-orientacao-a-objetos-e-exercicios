@@ -51,7 +51,7 @@ public class Exercicios {
             }
         }
 
-        System.out.println("\nEX2 - O mais frequente é: " + maisFrequente);
+        System.out.println("\nEX2 - O mais frequente é: " + maisFrequente + "\n");
 
         /*
         EXERCÍCIO 3:
@@ -60,7 +60,22 @@ public class Exercicios {
         Exiba a matriz original e a matriz transposta.
         */
 
-        
+        int[][] matriz = {
+            {1, 2, 3},
+            {4, 5, 6}
+        };
+
+        int[][] matrizTransposta = new int[matriz[0].length][matriz.length];
+
+        for(int i = 0; i < matriz.length; i++) {
+            for(int j = 0; j < matriz[0].length; j++) {
+                matrizTransposta[j][i] = matriz[i][j];
+            }
+        }
+
+        for(int[] linha : matrizTransposta) {
+            System.out.println("EX3 - " + Arrays.toString(linha));
+        }
 
         /*
         EXERCÍCIO 4:
