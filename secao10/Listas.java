@@ -1,6 +1,7 @@
 package secao10;
 
 import java.util.Arrays;
+import java.util.ArrayList;
 
 public class Listas {
     public static void main(String[] args) {
@@ -200,7 +201,7 @@ public class Listas {
 
         // ex3: usando ArrayList
 
-        java.util.ArrayList<String> listaFrutas = new java.util.ArrayList<>(Arrays.asList("Maçã", "Banana", "Laranja"));
+        ArrayList<String> listaFrutas = new ArrayList<>(Arrays.asList("Maçã", "Banana", "Laranja"));
          
         System.out.println(listaFrutas);
 
