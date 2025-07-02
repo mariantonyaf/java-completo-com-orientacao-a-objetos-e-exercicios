@@ -150,7 +150,5 @@ public class Listas {
             }
         }
         System.out.println(frutas[0]);
-
-        
     }
 }
