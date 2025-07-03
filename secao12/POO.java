@@ -34,5 +34,15 @@ public class POO {
         carro1.aumentarVelocidade(20.0);
 
         carro1.aumentarVelocidade(30.0);
+
+        // 4 - Criando propriedades
+
+        Pessoa joao = new Pessoa();
+
+        joao.setNome("João");
+        System.out.println("\nO nome do João é: " + joao.getNome());
+
+        joao.setIdade(20);
+        System.out.println("A idade de João é: " + joao.getIdade());
     }
 }
