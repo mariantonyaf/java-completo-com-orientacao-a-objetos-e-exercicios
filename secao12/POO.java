@@ -43,6 +43,13 @@ public class POO {
         System.out.println("\nO nome do João é: " + joao.getNome());
 
         joao.setIdade(20);
-        System.out.println("A idade de João é: " + joao.getIdade());
+        System.out.println("A idade de João é: " + joao.getIdade() + "\n");
+
+        // 5 - Setters
+        ContaBancaria contaDaAna = new ContaBancaria();
+
+        contaDaAna.setTitular("Ana");
+        contaDaAna.setSaldo(250);
+        contaDaAna.exibirInfo();
     }
 }
