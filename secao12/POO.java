@@ -53,6 +53,21 @@ public class POO {
 
         // 6 - Getters
         System.out.println(contaDaAna.getTitular());
-        System.out.println(contaDaAna.getSaldo());
+        System.out.println(contaDaAna.getSaldo() + "\n");
+
+        // 7 - Lógica em get e set
+        Produto camisa = new Produto();
+
+        camisa.setNome("Camisa regata");
+        System.out.println(camisa.getNome());
+
+        camisa.setPreco(55.5962423);
+        System.out.println(camisa.getPreco());
+
+        // 8 - Métodos dentro de métodos
+        System.out.println(camisa.getProdutoInfo());
+
+        camisa.aplicarDesconto(0);
+
     }
 }
