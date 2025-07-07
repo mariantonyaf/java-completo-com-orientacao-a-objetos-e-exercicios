@@ -36,7 +36,6 @@ public class POO {
         carro1.aumentarVelocidade(30.0);
 
         // 4 - Criando propriedades
-
         Pessoa joao = new Pessoa();
 
         joao.setNome("João");
@@ -51,5 +50,9 @@ public class POO {
         contaDaAna.setTitular("Ana");
         contaDaAna.setSaldo(250);
         contaDaAna.exibirInfo();
+
+        // 6 - Getters
+        System.out.println(contaDaAna.getTitular());
+        System.out.println(contaDaAna.getSaldo());
     }
 }

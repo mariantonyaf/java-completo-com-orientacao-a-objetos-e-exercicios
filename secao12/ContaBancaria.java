@@ -26,4 +26,12 @@ public class ContaBancaria {
         System.out.println("Titular: " + titular);
         System.out.println("Saldo: " + saldo);
     }
+
+    public String getTitular() {
+        return titular;
+    }
+
+    public String getSaldo() {
+        return "R$ " + saldo;
+    }
 }
