@@ -64,6 +64,11 @@ public class Exercicios {
         ProdutoEletronico, aplique o desconto e exiba as informações
         após a alteração do preço. */
 
+        ProdutoEletronico notebook = new ProdutoEletronico("Notebook dell", 3500, 12);
+
+        notebook.aplicarDesconto(20);
+        notebook.exibirInfo();
+
         /* Exercício 5: Crie uma classe LivroBiblioteca com as propriedades
         privadas titulo, autor, e disponivel (boolean). Adicione métodos
         para pegar emprestado (definindo disponivel como false) e devolver
