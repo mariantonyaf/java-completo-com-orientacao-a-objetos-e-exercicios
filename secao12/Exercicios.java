@@ -51,7 +51,11 @@ public class Exercicios {
         saque e se o saldo é suficiente. Crie dois objetos da classe
         ContaCorrente e teste os métodos criados. */
 
+        ContaCorrente maria = new ContaCorrente("Maria Antonya", 1500, 500);
         
+        maria.exibirSaldo();
+        maria.depositar(598);
+        maria.sacar(98);
 
         /* Exercício 4: Crie uma classe ProdutoEletronico com as
         propriedades nome, preco, e garantia.  Implemente um método para
