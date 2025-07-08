@@ -77,5 +77,17 @@ public class Exercicios {
         emprestado antes de permitir a ação. Na classe principal,
         instancie dois livros e simule o processo de empréstimo e
         devolução. */
+
+        LivroBiblioteca livro1 = new LivroBiblioteca();
+
+        livro1.setTitulo("Java: Como Programar");
+
+        livro1.devolver();
+
+        livro1.pegarEmprestado();
+        
+        livro1.pegarEmprestado();
+
+        livro1.devolver();
     }
 }
