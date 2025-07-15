@@ -34,7 +34,6 @@ Ao final do programa, lembre-se de fechar o Scanner para evitar vazamento de rec
 */
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class SimuladoLoteria {
