@@ -26,9 +26,24 @@ public class Bilhete {
     public int contarAcertos() {
         int acertos = 0;
 
+        for(int numeroEscolhido : numerosEscolhidos) {
+            for(int numeroSorteado : resultadoSorteio) {
+                if(numeroEscolhido == numeroSorteado) {
+                    acertos++;
+                }
+            }
+        }
 
         return acertos;
     }
 
     // exibir os resultados
+    public void exibirResultado(){
+        System.out.println("Números escolhidos: " + Arrays.toString(numerosEscolhidos));
+        System.out.println("Números sorteados: " + Arrays.toString(resultadoSorteio));
+
+        int acertos = contarAcertos();
+
+        System.out.println("Você acertou " + acertos + " acertos.");
+    }
 }
