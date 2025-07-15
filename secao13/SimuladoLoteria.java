@@ -46,6 +46,18 @@ public class SimuladoLoteria {
         while(true) {
             System.out.println("Digite 6 números para o seu bilhete (entre 1 e 60): ");
 
+            int[] numerosEscolhidos = new int[6];
+
+            for(int i = 0; i < numerosEscolhidos.length; i++) {
+                System.out.println("Digite o número " + (i+1) + ": ");
+
+                numerosEscolhidos[i] = scanner.nextInt();
+            }
+
+            Bilhete bilhete = new Bilhete(numerosEscolhidos);
+
+            bilhetes.add(bilhete);
+
             System.out.println("Deseja registrar outro bilhete (s / n): ");
 
             String resposta = scanner.next();
@@ -57,5 +69,12 @@ public class SimuladoLoteria {
 
         // realizar o sorteio para cada bilhete
         System.out.println("Realizando o sorteio...");
+
+        for(Bilhete bilhete : bilhetes) {
+            bilhete.realizarSorteio();
+            bilhete.exibirResultado();
+        }
+
+        scanner.close();
     }
 }
