@@ -45,5 +45,6 @@ public class Bilhete {
         int acertos = contarAcertos();
 
         System.out.println("Você acertou " + acertos + " acertos.");
+        System.out.println();
     }
 }
